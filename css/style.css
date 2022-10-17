@@ -2,6 +2,11 @@ nav {
     background-color: #2B3E50;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 a {
     text-decoration: none;
 }
