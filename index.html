@@ -115,28 +115,34 @@
         <!-- sezione form -->
         <section class="container">
             <div class="text-center">
-                <div><h1>CONTACT ME</h1></div>
-                <div>testo testo - testo - testo testo</div>
+                <div class="mb-3"><h1>CONTACT ME</h1></div>
+                <div class="mb-3">testo testo - testo - testo testo</div>
             </div>
-            <div class="row justify-content-center text-black">
-                <div class="col-12 col-md-10">
-                    <div class="py-3 border-bottom">testo</div>
-                    <div class="py-3 border-bottom">testo</div>
-                    <div class="py-3 border-bottom">testo</div>
-                    <div class="py-3 border-bottom">testo</div>
-                    <div class="pb-5 pt-3 border-bottom">testo</div>
-                </div>
-                <form action="">
-                    <div class="row justify-content-center text-black">
-                        <div class="col col-md-10">
-                            testo
+            <form action="">
+                <div class="row justify-content-center text-black">
+                    <div class="col col-md-10">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Phone Number</label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 150px"></textarea>
+                            <label for="floatingTextarea2">Message</label>
+                        </div>
+                        <div class="py-2">
+                            <button type="button" class="btn btn-success">Send</button>
                         </div>
                     </div>
-                </form>
-            </div>
-            <div class="py-2">
-                <button type="button" class="btn btn-success">Send</button>
-            </div>
+                </div>
+            </form>
         </section>
 
         <!-- footer -->
