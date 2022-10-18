@@ -28,7 +28,17 @@ section {
     padding: 1.5rem 0;
 }
 
-.footer-img-rounded {
-    font-size: 2rem;
+footer {
+    background-color: #3A546D;
+}
 
+.footer-img-rounded {
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: .3rem;
+    border: 1px solid white;
+}
+
+.sub-footer {
+    background-color: #2B3E50;
 }
