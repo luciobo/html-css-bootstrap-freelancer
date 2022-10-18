@@ -30,7 +30,7 @@ li {
 }
 
 section {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
 }
 
 footer {
@@ -58,5 +58,19 @@ footer {
     border-left: 0;
     border-right: 0;
     border-radius: 0;
+}
+
+.space-bar {
+    height: .3rem;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.space-bar-black {
+    height: .3rem;
+    background-color: black;
+    border-radius: 10px;
+    width: 100px;
 }
 
